@@ -20,18 +20,22 @@
 <h2 align="center" id="sobre">Sobre</h2>
 <p align="justify">O MKS Sistemas é um E-commerce que oferece produtos tecnológicos. Na plataforma o usuário pode escolher Smartphone, SmartWatch, HeadSeat, Mackbook entre outros acessórios, adicionar ou remover produtos ao carrinho de compras e finalizar suas compras em poucos minutos..</p>
 
-<h3 align="left" id="funcionalidades">Funcionalidades</h3>
+<h3 align="left" id="funcionalidades">Funcionalidades Finalizadas</h3>
 
 - [x] Visualizar os produtos cadastrados;
-- [x] Selecionar quantidade de produtos, cor e tamanho;
 - [x] Adicionar os produtos ao carrinho de compras;
-- [x] Finalizar a compra => (Ainda em desenvolvimento);
-- [x] Fazer Login => (Ainda em desenvolvimento); 
-- [x] Fazer logout => (Ainda em desenvolvimento);
-- [x] Cadastrar usuários => (Ainda em desenvolvimento);
-- [x] Selecionar os produtos por categorias => (Ainda em desenvolvimento);
-- [x] Fazer a busca de produtos no E-commerce => (Ainda em desenvolvimento);
-- [x] Fazer filtro dos produtos por cor, tamanho e preço => (Ainda em desenvolvimento);
+- [x] Remover os produtos do carrinho de compras;
+- [x] Selecionar a quantidade de produtos do carrinho de compras;
+
+<h3 align="left" id="funcionalidades">Funcionalidades em Desenvolvimento</h3>
+
+- [x] Fazer Login; 
+- [x] Fazer logout;
+- [x] Cadastrar usuários;
+- [x] Finalizar a compra;
+- [x] Selecionar os produtos por categorias;
+- [x] Fazer a busca de produtos no E-commerce;
+- [x] Fazer filtro dos produtos por cor, tamanho e preço;
 
 <h2 align="left" id="layout">🎨 Layout</h2>
 <p align="justify">O layout da aplicação está disponível no Figma:</p>
@@ -52,13 +56,17 @@
 <p align="justify">As seguintes Tecnologias e APIS que foram usadas na construção do projeto</p>
 
 - [Next.Js](https://nextjs.org/)
+- [Next-seo](https://www.npmjs.com/package/next-seo)
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Styled-components](https://styled-components.com/)
 - [Polish](https://polished.js.org/docs/)
-- [Redux-Toolkit](https://redux-toolkit.js.org/usage/usage-guide)
+- [Radix-ui](https://www.radix-ui.com/docs/primitives/overview/getting-started)
+- [@stitches/react](https://www.npmjs.com/package/@stitches/react)
+- [Styled-components](https://styled-components.com/)
+- [React-loading-skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [React-Redux](https://react-redux.js.org/introduction/getting-started)
+- [Redux-Toolkit](https://redux-toolkit.js.org/usage/usage-guide)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 
 <h2 align="left" id="status">Status do Projeto</h2>
