@@ -1,0 +1,38 @@
+{
+  "name": "mks_sistemas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.5",
+    "@radix-ui/colors": "^0.1.8",
+    "@radix-ui/react-alert-dialog": "^1.0.2",
+    "@radix-ui/react-dialog": "^1.0.2",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stitches/react": "^1.2.8",
+    "@svgr/webpack": "^6.5.1",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "axios": "^1.2.5",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "next": "13.1.5",
+    "next-seo": "^5.15.0",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.5",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.6",
+    "typescript": "4.9.4"
+  }
+}
