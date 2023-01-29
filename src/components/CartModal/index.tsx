@@ -10,6 +10,7 @@ import {
   BodyModal,
   ButtonCart,
   ConfirmPaymentCart,
+  EmptyBodyCart,
   FooterCart,
   HeaderModal
 } from './styles';
@@ -116,10 +117,6 @@ const Button = styled('button', {
       },
     },
   },
-
-  defaultVariants: {
-    variant: 'violet',
-  },
 });
 
 interface CartModalProps {
@@ -165,10 +162,15 @@ export function CartModal({ quantity }: CartModalProps) {
 
         <BodyModal>
           {
-            cart.quantity > 0 &&
-            cart?.products?.map(product => (
-              <CartProduct key={product.id} product={product} />
-            ))
+            cart.quantity > 0 ?
+              cart?.products?.map(product => (
+                <CartProduct key={product.id} product={product} />
+              ))
+              :
+              <EmptyBodyCart>
+                O carrinho está vazio, {<br />}
+                Por favor Adicione algum produto.
+              </EmptyBodyCart>
           }
         </BodyModal>
 

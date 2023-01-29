@@ -28,9 +28,13 @@ interface ProductProps {
   isLoading?: boolean;
 }
 
+import toast, { Toaster } from 'react-hot-toast';
+
 export function Product({ product, isLoading }: ProductProps) {
 
   const dispatch = useDispatch();
+
+  const notify = () => toast('Produto adicionado ao carrinho.');
 
   const handleAddNewProductToCart = () => {
     const priceFormatted = Number(product.price);
@@ -54,6 +58,8 @@ export function Product({ product, isLoading }: ProductProps) {
         }
       )
     );
+
+    notify();
   };
 
   function InlineWrapperWithMargin({ children }: PropsWithChildren<unknown>) {
@@ -107,7 +113,7 @@ export function Product({ product, isLoading }: ProductProps) {
 
           <Skeleton
             width="220px"
-            height="20px"
+            height="35px"
             style={{
               borderTopLeftRadius: 0,
               borderTopRightRadius: 0,
@@ -119,7 +125,15 @@ export function Product({ product, isLoading }: ProductProps) {
           />
           :
           <FooterProduct onClick={handleAddNewProductToCart}>
-            <ShoppingBag size={24} weight="bold" color="#ffffff" />
+            <Toaster
+              toastOptions={{
+                style: {
+                  background: "#28a745", color: '#FFFFFF',
+                },
+                duration: 1500
+              }}
+            />
+            <ShoppingBag size={24} weight="bold" color="#FFFFFF" />
             COMPRAR
           </FooterProduct>
       }

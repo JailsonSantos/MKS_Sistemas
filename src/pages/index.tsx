@@ -1,4 +1,5 @@
 import { NextSeo } from 'next-seo';
+import { GetStaticProps } from 'next';
 import { api } from "@/services/axios";
 import { useEffect, useState } from "react";
 import { Footer } from "@/components/Footer";
@@ -8,7 +9,7 @@ import { Container, Main } from "@/styles/Home";
 import { ProductsFake } from "@/data/ProductsFake";
 import { SkeletonTheme } from "react-loading-skeleton";
 
-interface ListProductsProps {
+type Product = {
   id: number;
   name: string;
   brand: string;
@@ -17,41 +18,28 @@ interface ListProductsProps {
   price: string;
 }
 
-export default function Home() {
+interface ListProductsProps {
+  products: Product[];
+}
 
-  const [listProducts, setListProducts] = useState<ListProductsProps[]>([]);
+
+export default function Home({ products }: ListProductsProps) {
+
   const [isLoading, setIsLoading] = useState(true);
-
-  async function handleGetAllProducts() {
-    try {
-      setIsLoading(true);
-
-      const response = await api.get('/products?page=1&rows=50&sortBy=id&orderBy=DESC');
-      setListProducts(response.data.products);
-
-    } catch (error) {
-      console.log("Errors => ", error);
-    } finally {
-      setIsLoading(false);
-    }
-  }
 
   useEffect(() => {
     setTimeout(() => {
-      handleGetAllProducts()
-    }, 1000)
-  }, [])
+      setIsLoading(false);
+    }, 500)
+  }, []);
 
   return (
     <Container>
-
       <NextSeo
         title="Home | E-Commerce"
         description="E-commerce virtual."
       />
-
       <Header />
-
       <Main>
         <SkeletonTheme
           baseColor="rgba(238,238,238, 0.5)"
@@ -69,7 +57,7 @@ export default function Home() {
                 )
               })
               :
-              listProducts.map(product => {
+              products.map(product => {
                 return (
                   <Product key={product.id} product={product} />
                 )
@@ -77,9 +65,20 @@ export default function Home() {
           }
         </SkeletonTheme>
       </Main>
-
       <Footer />
-
     </Container>
   )
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+
+  const { data } = await api.get('/products?page=1&rows=50&sortBy=id&orderBy=DESC');
+
+  return {
+    props: {
+      products: data.products,
+    },
+    revalidate: 60 * 60 * 24, // 1 day
+
+  }
 }

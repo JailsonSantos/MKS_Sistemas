@@ -84,6 +84,7 @@ export function CartProduct({ product }: ProductProps) {
   }
 
   const handleDeleteProductOfCart = () => {
+
     dispatch(
       deleteProduct(
         {

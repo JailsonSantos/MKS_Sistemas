@@ -37,6 +37,16 @@ export const BodyModal = styled.div`
   }
 `;
 
+export const EmptyBodyCart = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+line-height: 2rem;
+  color: ${({ theme }) => theme.textLight};
+`;
+
 export const ButtonCart = styled.button`
   all: unset;
   width: 90px;
