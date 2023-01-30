@@ -16,7 +16,7 @@ import {
   TitleProduct
 } from "./styles";
 
-interface ProductProps {
+interface IProductProps {
   product: {
     id: number;
     name: string;
@@ -27,7 +27,7 @@ interface ProductProps {
   }
 }
 
-export function CartProduct({ product }: ProductProps) {
+export function CartProduct({ product }: IProductProps) {
   const dispatch = useDispatch();
 
   const [quantity, setQuantity] = useState(product.quantityOfProduct);

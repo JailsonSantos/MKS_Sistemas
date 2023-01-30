@@ -9,7 +9,7 @@ import { Container, Main } from "@/styles/Home";
 import { ProductsFake } from "@/data/ProductsFake";
 import { SkeletonTheme } from "react-loading-skeleton";
 
-type Product = {
+type IProduct = {
   id: number;
   name: string;
   brand: string;
@@ -19,7 +19,7 @@ type Product = {
 }
 
 interface ListProductsProps {
-  products: Product[];
+  products: IProduct[];
 }
 
 

@@ -16,7 +16,7 @@ import {
   AreaDescriptionPrice,
 } from "./styles";
 
-interface ProductProps {
+interface IProductProps {
   product: {
     id: number;
     name: string;
@@ -30,7 +30,7 @@ interface ProductProps {
 
 import toast, { Toaster } from 'react-hot-toast';
 
-export function Product({ product, isLoading }: ProductProps) {
+export function Product({ product, isLoading }: IProductProps) {
 
   const dispatch = useDispatch();
 

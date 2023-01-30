@@ -1,0 +1,646 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Shoud render component 1`] = `
+<div>
+  <div
+    class="sc-ezOQGI cVdiFe"
+  >
+    <div
+      class="sc-dIfARi dxFhTW"
+    >
+      <div>
+        <div
+          class="sc-hHTYSt dRHmMK"
+        >
+          MKS 
+          <span>
+            Sistemas
+          </span>
+        </div>
+      </div>
+      <button
+        aria-controls="radix-:r3:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        class="sc-fnGiBr eXTSQQ"
+        data-state="closed"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          viewBox="0 0 256 256"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="none"
+            height="256"
+            width="256"
+          />
+          <path
+            d="M184,184H69.8L41.9,30.6A8,8,0,0,0,34.1,24H16"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="24"
+          />
+          <circle
+            cx="80"
+            cy="204"
+            fill="none"
+            r="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="24"
+          />
+          <circle
+            cx="184"
+            cy="204"
+            fill="none"
+            r="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="24"
+          />
+          <path
+            d="M62.5,144H188.1a15.9,15.9,0,0,0,15.7-13.1L216,64H48"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="24"
+          />
+        </svg>
+        <span />
+      </button>
+    </div>
+    <main
+      class="sc-bYMpWt hZjaGm"
+    >
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+      <div
+        class="sc-kgTSHT kShjZj"
+      >
+        <div
+          class="sc-fLcnxK fGfCEs"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 111px; height: 138px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+            <span
+              style="margin-left: 0.2rem;"
+            >
+              <span
+                class="react-loading-skeleton"
+                style="--animation-duration: 4s; width: 100px; height: 30px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+              >
+                ‌
+              </span>
+            </span>
+          </span>
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="--animation-duration: 4s; width: 210px; height: 50px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+        </div>
+        <span
+          aria-busy="true"
+          aria-live="polite"
+        >
+          <span
+            class="react-loading-skeleton"
+            style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; position: relative; bottom: -10px; --animation-duration: 4s; width: 220px; height: 35px; border-radius: 0.5rem; --base-color: rgba(238,238,238, 0.5); --highlight-color: rgba(0,128,178, 0.1);"
+          >
+            ‌
+          </span>
+          <br />
+        </span>
+      </div>
+    </main>
+    <div
+      class="sc-bcXHqe encDOS"
+    >
+      <span>
+        MKS sistemas © Todos os direitos reservados.
+      </span>
+    </div>
+  </div>
+</div>
+`;

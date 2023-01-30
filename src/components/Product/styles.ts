@@ -89,8 +89,8 @@ export const FooterProduct = styled.button`
   &:hover{
     cursor: pointer;
     transition: all 0.5s ease;
-    border: 1px solid ${({ theme }) => lighten(0.05, theme.blue)};  
-    background-color: ${({ theme }) => lighten(0.05, theme.blue)};
+    border: 1px solid ${({ theme }) => theme.blueLight};  
+    background-color: ${({ theme }) => theme.blueLight};
   }
 
   &:focus{

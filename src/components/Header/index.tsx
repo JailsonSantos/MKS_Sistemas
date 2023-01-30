@@ -9,14 +9,13 @@ export function Header() {
 
   const cart = useSelector((state: RootState) => state.cart);
 
-  const quantity = cart.quantity;
+  const quantity = cart?.quantity;
 
   return (
     <Container>
       <div>
         <Logo>
-          MKS
-          <span>Sistemas</span>
+          MKS <span>Sistemas</span>
         </Logo>
       </div>
 

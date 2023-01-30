@@ -162,7 +162,7 @@ export function CartModal({ quantity }: CartModalProps) {
 
         <BodyModal>
           {
-            cart.quantity > 0 ?
+            cart?.quantity > 0 ?
               cart?.products?.map(product => (
                 <CartProduct key={product.id} product={product} />
               ))
@@ -180,11 +180,11 @@ export function CartModal({ quantity }: CartModalProps) {
               Total
             </span>
             <span>
-              R$ {cart.total.toFixed(2)}
+              R$ {cart?.total.toFixed(2)}
             </span>
           </AreaTotalCart>
 
-          <ConfirmPaymentCart total={cart.total}>
+          <ConfirmPaymentCart total={cart?.total}>
             Finalizar Compra
           </ConfirmPaymentCart>
         </FooterCart>

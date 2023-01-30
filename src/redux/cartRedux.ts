@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-interface ProductProps {
+interface IProductProps {
   id: number;
   name: string;
   description: string;
@@ -10,7 +10,7 @@ interface ProductProps {
 }
 
 export interface SliceState {
-  products: ProductProps[];
+  products: IProductProps[];
   quantity: number;
   total: number;
 }

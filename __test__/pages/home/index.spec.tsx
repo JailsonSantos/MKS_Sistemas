@@ -1,41 +1,58 @@
-import React from 'react';
 import Home from '@/pages';
 import '@testing-library/jest-dom';
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/dom';
+import { render } from '@testing-library/react';
+import { ProductsFake } from '@/data/ProductsFake';
 
-type Product = {
-  id: number;
-  name: string;
-  brand: string;
-  description: string;
-  photo: string;
-  price: string;
-}
+jest.mock("react-redux", () => ({
+  useSelector: jest.fn(),
+  useDispatch: jest.fn(),
+}));
 
-interface ListProductsProps {
-  products: Product[];
-}
+describe('Home component', () => {
+  it("Shoud render component", () => {
 
-describe('Home page', () => {
-  it('Should render properly', () => {
+    const { container } = render(<Home products={ProductsFake} />)
 
-    const products: ListProductsProps = {
-      products: [{
-        id: 8,
-        name: "Headset Cloud Stinger",
-        brand: "HyperX",
-        description: "O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, qualidade de som superior e maior praticidade.",
-        photo: "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
-        price: "600.00",
-      }
-      ]
-    }
+    expect(container).toMatchSnapshot()
 
-    render(<Home products={[]} />);
+  });
 
-    const header = screen.getByRole('heading')
-    const headerText = 'Hello World!'
+  it('List exits in component', () => {
 
-    expect(header).toHaveTextContent(headerText)
+    render(<Home products={ProductsFake} />)
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('Headset Cloud Stinger')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('Headset Cloud Revolver')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('iPad')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('Apple Watch Series 7')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('iPhone 12 64 GB')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('Macbook Air')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('AirPods')
+    }));
+
+    expect(screen.queryAllByText((content, element) => {
+      return element?.tagName.toLowerCase() === 'span' && content.startsWith('Iphone 11 128 GB')
+    }));
+
   });
 });

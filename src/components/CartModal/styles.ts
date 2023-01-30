@@ -123,10 +123,10 @@ export const ConfirmPaymentCart = styled.button<ConfirmPaymentCartProps>`
   
   &:hover{
     transition: all 0.2s ease;
-    border-color: ${({ total, theme }) => total !== 0 && lighten(0.05, theme.textDark)};
-    background-color: ${({ total, theme }) => total !== 0 && lighten(0.05, theme.textDark)};
+    border-color: ${({ total, theme }) => total !== 0 && theme.textDarkLight};
+    background-color: ${({ total, theme }) => total !== 0 && theme.textDarkLight};
   }
-
+ 
   ${mobile({
   bottom: 0,
   position: 'absolute',
